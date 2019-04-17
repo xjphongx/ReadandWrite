@@ -16,8 +16,16 @@ Person::Person()
 {
     firstName = "Jimmy";
     lastName = "Phong";
-    payRate = 17;
-    hoursWorked = 20;
+    payRate = 12;
+    hoursWorked = 10;
+}
+
+Person::Person(string fName, string lName, float rate, float hour)
+{
+    firstName = fName;
+    lastName = lName;
+    payRate = rate;
+    hoursWorked = hour;
 }
 //last name stuff
 void Person::setLastName(string lName){

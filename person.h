@@ -16,6 +16,7 @@ class Person
         float hoursWorked;
     public:
         Person();
+        Person(string firstName, string lastName, float payRate, float hoursWorked);
 
         void setLastName(string lName);
         string getLastName();
